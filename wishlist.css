@@ -1,0 +1,375 @@
+
+
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f9;
+} */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color:rgb(251, 184, 184);
+}
+li {
+    list-style: none;
+}
+a{
+    color: crimson;
+    text-decoration: none;
+   
+}
+.navbar{
+    min-width: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  0 24px;
+   
+
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+.logo img{
+    width: 80px;
+}
+.nav-link{
+    transition: 0.7s ease;
+}
+.nav-link:hover{
+    color: lightblue;
+}
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+.bar{
+    display: block;
+    width: 35px;
+    height: 3px;
+    margin:  5px auto;
+    -webkit-transition: all 0.3 s ease-in-out;
+    transition: all 0.3 s ease-in-out;
+    background-color: white;
+}
+h1{
+    margin: 20px;
+}
+h2{
+    margin: 20px;
+}
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.image img {
+    max-width: 100px;
+    border-radius: 5px;
+    
+}
+.image-info {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+.image button {
+    padding: 5px 10px;
+    background-color: #ff98a2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.image button:hover {
+    background-color: #ff98a2;
+}
+.wishlist {
+    margin-top: 20px;
+}
+.wishlist h2 {
+    margin-bottom: 10px;
+}
+.wishlist .wishlist-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.wishlist .wishlist-item img {
+    max-width: 100px;
+    border-radius: 5px;
+}
+.wishlist .wishlist-item .info {
+    margin-left: 10px;
+}
+#right{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.personal_image {
+    width: 130px; /* Set the width of the circle */
+    height: 130px; /* Set the height of the circle */
+    border-radius: 50%; /* Creates the circular shape */
+    overflow: hidden; /* Ensures the image doesn't spill outside the circle */
+    border: 5px solid #b5087b; /* Optional: Add a decorative border */
+    display: flex; /* Centers the image */
+    justify-content: center;
+    align-items: center;
+ }
+.clients{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 13px;
+    background-color: white;
+}
+.clients p {
+    width: 40%;
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff98a2;
+}
+.inside_footer{
+    width: 70%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.top_footer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+}
+.info_footer{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+.info_footer h3{
+    margin-bottom: 7px;
+}
+.socials i{
+    padding-right: 5px;
+    font-size: 20px;
+}
+
+
+
+@media only screen and (max-width:820px){
+    .navbar {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 16px;
+        position: relative;
+    }
+
+    .logo img {
+        width: 60px;
+    }
+
+    .nav-menu {
+        display: none; /* Fshehur si parazgjedhje */
+        flex-direction: column;
+        gap: 20px;
+        position: absolute;
+        top: 70px; /* Pozicionuar nën navbar */
+        left: 0;
+        width: 100%;
+        background-color: rgb(251, 184, 184); /* Ngjyra e sfondit */
+        text-align: center;
+        padding: 20px 0;
+        border-top: 2px solid white;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        z-index: 10;
+    }
+
+    .nav-menu.active {
+        display: flex; /* Shfaqet kur hamburgeri klikohet */
+    }
+
+    .nav-item {
+        width: 100%;
+    }
+
+    .nav-link {
+        font-size: 18px;
+        padding: 10px 0;
+        display: block;
+    }
+
+    .hamburger {
+        display: block; /* Shfaq hamburgerin në mobile */
+        cursor: pointer;
+    }
+
+    .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        background-color: crimson;
+        transition: all 0.3s ease-in-out;
+    }
+
+    /* Animacione për hamburger-in */
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .service{
+        width: 100%;
+        height: 300px;
+        color: white;
+        font-size:22px;
+    }
+
+    .bussinessServices{
+        width: 100%;
+        height: 2500px;
+        margin-top: 30px;
+        gap:10px;
+    }
+    .top_bussinessServices{
+        width: 100%;
+        height: 100px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .top_bussinessServices h2{
+        width: 95%;
+    }
+    .bottom_bussinessServices{
+        width: 95%;
+        height: 2300px;
+        display: flex;
+        justify-content:space-evenly;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+    }
+    #right{
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    .box{
+        width: 100%;
+        height: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgb(255, 255, 255);
+    }
+    .box_left{
+        width: 100%;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .box_left p{
+        width: 90%;
+    }
+    .box_right{
+        width: 100%;
+        height: 100%;
+        background-color: rgb(217, 222, 227);
+        background-size:cover ;
+    }
+
+
+    .clients{
+        gap: 5px;
+    }
+    .clients p {
+        width: 90%;
+        text-align: center;
+    }
+
+
+    footer{
+        width: 100%;
+        height: 650px;
+    }
+    .inside_footer{
+        width: 95%;
+        height: 300px;
+    }
+    .top_footer{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .info_footer{
+        width: 95%;
+        height: 100%;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        color: white;
+    }
+    .info_footer h3{
+        margin-bottom: 7px;
+    }
+    .socials i{
+        padding-right: 5px;
+        font-size: 20px;
+    }
+ 
+}
+ 

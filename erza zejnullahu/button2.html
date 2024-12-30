@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="button2.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">  <img src="photos/logo.png" width=""></div>  
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html  " class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="wishlist.html" class="nav-link">Wishlist</a>
+                </li>
+                <li class="nav-item">
+                    <a href="service.html" class="nav-link">Service</a>
+                </li>
+                <li class="nav-item">
+                    <a href="favorites.html" class="nav-link">Favorites</a>
+                </li>
+                <li class="nav-item">
+                    <a href="singin.html" class="nav-link"><span>Sign in</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="icon.htmlFF" class="nav-link"> <i class="fa-solid fa-plant-wilt"></i></i></a>
+                </li>
+               
+
+            </ul>   
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>    
+        </nav>
+    </header>
+
+
+
+    <div class="pjesa10">
+        <div class="top-pjesa10">
+            <div class="teksti-pjesa10">
+                <h4>LATEST BLOGS</h4>
+                <h1>Publish what you think, don't put it on social media</h1>
+            </div>
+        </div>
+
+        <div class="bottom-pjesa10">
+
+            <div class="box-pjesa10">
+                <div class="image10">
+                    <img src="photos/foto15.jpg" alt="">
+                </div>
+              <div class="bottom-box10">
+                <div class="teksti-box10">
+                    <h1>I like the body. I like to design everything to do with the body.</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard...</p>
+                </div>    
+                <div class="h4-box10">
+                    <h4>BY JAY BENJAMIN | 20 APRIL 2017</h4>
+                </div>
+                
+              </div>
+            </div>
+
+            <div class="box-pjesa10">
+                <div class="image10">
+                    <img src="photos/foto4.jpg" alt="">
+                </div>
+              <div class="bottom-box10">
+                <div class="teksti-box10">
+                    <h1>I like the body. I like to design everything to do with the body.</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard...</p>
+                </div>    
+                <div class="h4-box10">
+                    <h4>BY JAY BENJAMIN | 20 APRIL 2017</h4>
+                </div>
+                
+              </div>
+            </div>
+
+            <div class="box-pjesa10">
+                <div class="image10">
+                    <img src="photos/foto8.jpg" alt="">
+                </div>
+              <div class="bottom-box10">
+                <div class="teksti-box10">
+                    <h1>I like the body. I like to design everything to do with the body.</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard...</p>
+                </div>    
+                <div class="h4-box10">
+                    <h4>BY JAY BENJAMIN | 20 APRIL 2017</h4>
+                </div>
+                
+              </div>
+            </div>
+
+      </div>
+      </div>
+
+
+
+    <div class="clients">
+        <p style="color: #b5087b; font-size: 15px; ">What our clients say</p>
+       <div class="personal_image" style="background-image:url(photos/girl.jpg); background-size: cover; border-radius: 50%; width: 130px;height: 130px;margin-top: 30px;"></div>
+       <p>A marketing strategy refers to a business's overall game plan for reaching prospective consumers and turning them into costumers of their products or services.</p><br>
+      <strong style="font-size: 18px;">Carolyn Stewart</strong>
+      <p>United States</p>
+      </div>
+
+      <footer>
+        <div class="inside_footer">
+          <div class="top_footer">
+            <div class="info_footer">
+              <h1>LOGO</h1>
+            </div>
+            <div class="info_footer">
+              <h3>Main Office</h3>
+              <p>Austria 82 12th Street, Office 14, LS</p>
+              <p>10001234567</p>
+            </div>
+            <div class="info_footer">
+              <h3>Useful Links</h3>
+              <p>Our Servies</p>
+              <p>Our Team</p>
+              <p>Portfolio</p>
+              <p>Shortcodes</p>
+              <p>Typography</p>
+              <p>Privacy Policy</p>
+            </div>
+            <div class="info_footer">
+              <h3>Socials</h3>
+              <p class="socials">
+                <i class="fa-brands fa-instagram"></i>  
+                <i class="fa-brands fa-facebook"></i> 
+                <i class="fa-brands fa-whatsapp"></i> 
+                <i class="fa-brands fa-youtube"></i> 
+              </p>
+            </div>
+          </div>
+
+          <div class="bottom_footer">
+          </div>
+        </div>
+      </footer>
+
+
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+
+hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+});
+
+document.querySelectorAll(".nav-link").forEach(n => 
+    n.addEventListener("click", () => {
+        hamburger.classList.remove("active");
+        navMenu.classList.remove("active");
+    })
+);
+    </script>
+</body>
+</html>

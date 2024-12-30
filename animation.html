@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="animation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">  <img src="photos/logo.png" width=""></div>  
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="wishlist.html" class="nav-link">Wishlist</a>
+                </li>
+                <li class="nav-item">
+                    <a href="service.html" class="nav-link">Service</a>
+                </li>
+                <li class="nav-item">
+                    <a href="favorites.html" class="nav-link">Favorites</a>
+                </li>
+                <li class="nav-item">
+                    <a href="singin.html" class="nav-link"><span>Sign in</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="icon.html" class="nav-link"> <i class="fa-solid fa-plant-wilt"></i></i></a>
+                </li>
+               
+
+            </ul>   
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>    
+        </nav>
+    </header>
+    <div class="content-box">
+        <h1>Welcome to the Flower Animation</h1>
+        <img src="photos/foto19.jpg" alt="Sample Image">
+        <p>Enjoy this mesmerizing floating flower animation in the background while reading this content. Feel free to customize the text and image!</p>
+    </div>
+
+    <script>
+        // Generate random flowers
+        const createFlower = () => {
+            const flower = document.createElement('div');
+            flower.classList.add('flower');
+
+            // Set random position and animation duration
+            const x = Math.random() * window.innerWidth;
+            const duration = Math.random() * 10 + 5;
+            const delay = Math.random() * 5;
+
+            flower.style.left = `${x}px`;
+            flower.style.animationDuration = `${duration}s`;
+            flower.style.animationDelay = `${delay}s`;
+
+            document.body.appendChild(flower);
+
+            // Remove flower after animation
+            flower.addEventListener('animationend', () => {
+                flower.remove();
+            });
+        };
+
+        // Continuously create flowers
+        setInterval(createFlower, 500);
+    
+
+    const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+
+hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+})
+
+document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () => {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+}))
+</script>
+</body>
+</html>

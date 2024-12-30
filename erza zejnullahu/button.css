@@ -1,0 +1,668 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color:rgb(251, 184, 184);
+}
+li {
+    list-style: none;
+}
+a{
+    color: crimson;
+    text-decoration: none;
+   
+}
+.navbar{
+    min-width: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  0 24px;
+   
+
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+.logo img{
+    width: 80px;
+}
+.nav-link{
+    transition: 0.7s ease;
+}
+.nav-link:hover{
+    color: lightblue;
+}
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+.bar{
+    display: block;
+    width: 35px;
+    height: 3px;
+    margin:  5px auto;
+    -webkit-transition: all 0.3 s ease-in-out;
+    transition: all 0.3 s ease-in-out;
+    background-color: white;
+}
+
+/* pjesa3_________________________________________________ */
+.pjesa3{
+    width: 100%;
+    height: 720px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.left3{
+    width: 50%;
+    height: 720px;
+    background-image: url(photos/foto5.webp);
+    background-size:cover;
+}
+.right3{
+    width: 50%;
+    height: 720px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.allright3{
+    width: 78%;
+    height: 720px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.headerpjesa3{
+    width: 100%;
+    height: 150px;
+}
+.headerpjesa3 h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(58, 58, 58);
+    font-size:40px;
+}
+
+
+
+.elegant-different-pjesa3{
+    width:100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+.elegant-pjesa3{
+    width: 50%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    /* background-color: blueviolet; */
+}
+.text-elegant{
+    width:85%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap:10px;
+}
+.text-elegant h1{
+    width: 100%;
+    font-size: 17px;
+    font-family: 'Roboto',sans-serif;
+    color: rgb(69, 69, 69);
+}
+.text-elegant p{
+    width: 100%;
+    font-size: 16px;
+    font-family:'Roboto',sans-serif;
+    color:#6f6f6f;
+    line-height: 24px;
+    
+}
+.icona-elegant{
+    width: 25%;
+    height: 200px;
+}
+
+
+.different-pjesa3{
+    width: 50%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    /* background-color: rgb(163, 110, 212); */
+}
+.text-different{
+    width:85%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap:10px;
+}
+.text-different h1{
+    width: 100%;
+    font-size: 17px;
+    font-family: 'Roboto',sans-serif;
+    color: rgb(69, 69, 69);
+}
+.text-different p{
+    width: 100%;
+    font-size: 16px;
+    font-family:'Roboto',sans-serif;
+    color:#6f6f6f;
+    line-height: 24px;
+}
+.icona-different{
+    width: 25%;
+    height: 200px;
+}
+
+
+.makeitsimple-true-pjesa3{
+    width:100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+.makeitsimple-pjesa3{
+    width: 50%;
+    height: 200px;
+}
+.true-pjesa3{
+    width: 50%;
+    height:200px;
+}
+
+.makeitsimple-pjesa3{
+    width: 50%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    /* background-color: rgb(163, 110, 212); */
+}
+.text-makeitsimple{
+    width:85%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap:10px;
+}
+.text-makeitsimple h1{
+    width: 100%;
+    font-size: 17px;
+    font-family: 'Roboto',sans-serif;
+    color: rgb(69, 69, 69);
+}
+.text-makeitsimple p{
+    width: 100%;
+    font-size: 16px;
+    font-family:'Roboto',sans-serif;
+    color:#6f6f6f;
+    line-height: 24px;
+}
+.icona-makeitsimple{
+    width: 25%;
+    height: 200px;
+}
+
+
+.true-pjesa3{
+    width: 50%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    /* background-color: rgb(163, 110, 212); */
+}
+.text-true{
+    width:85%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap:10px;
+}
+.text-true h1{
+    width: 100%;
+    font-size: 17px;
+    font-family: 'Roboto',sans-serif;
+    color: rgb(69, 69, 69);
+}
+.text-true p{
+    width: 100%;
+    font-size: 16px;
+    font-family:'Roboto',sans-serif;
+    color:#6f6f6f;
+    line-height: 24px;
+}
+.icona-true{
+    width: 25%;
+    height: 200px;
+}
+.icona-elegant i{
+    font-size: 35px;
+}
+.icona-different i{
+    font-size: 35px;
+}
+.icona-makeitsimple i{
+    font-size: 35px;
+}
+.icona-true i{
+    font-size: 35px;
+}
+
+#right{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.clients{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 13px;
+    background-color: white;
+}
+.clients p {
+    width: 40%;
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff98a2;
+}
+.inside_footer{
+    width: 70%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.top_footer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+}
+.info_footer{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+.info_footer h3{
+    margin-bottom: 7px;
+}
+.socials i{
+    padding-right: 5px;
+    font-size: 20px;
+}
+
+
+
+@media only screen and (max-width:720px) {
+    .navbar {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 16px;
+        position: relative;
+    }
+
+    .logo img {
+        width: 60px;
+    }
+
+    .nav-menu {
+        display: none; /* Fshehur si parazgjedhje */
+        flex-direction: column;
+        gap: 20px;
+        position: absolute;
+        top: 70px; /* Pozicionuar nën navbar */
+        left: 0;
+        width: 100%;
+        background-color: rgb(251, 184, 184); /* Ngjyra e sfondit */
+        text-align: center;
+        padding: 20px 0;
+        border-top: 2px solid white;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        z-index: 10;
+    }
+
+    .nav-menu.active {
+        display: flex; /* Shfaqet kur hamburgeri klikohet */
+    }
+
+    .nav-item {
+        width: 100%;
+    }
+
+    .nav-link {
+        font-size: 18px;
+        padding: 10px 0;
+        display: block;
+    }
+
+    .hamburger {
+        display: block; /* Shfaq hamburgerin në mobile */
+        cursor: pointer;
+    }
+
+    .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        background-color: crimson;
+        transition: all 0.3s ease-in-out;
+    }
+
+    /* Animacione për hamburger-in */
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .service{
+        width: 100%;
+        height: 300px;
+        color: white;
+        font-size:22px;
+    }
+
+    .bussinessServices{
+        width: 100%;
+        height: 2500px;
+        margin-top: 30px;
+        gap:10px;
+    }
+    .top_bussinessServices{
+        width: 100%;
+        height: 100px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .top_bussinessServices h2{
+        width: 95%;
+    }
+    .bottom_bussinessServices{
+        width: 95%;
+        height: 2300px;
+        display: flex;
+        justify-content:space-evenly;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+    }
+    #right{
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    .box{
+        width: 100%;
+        height: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgb(255, 255, 255);
+    }
+    .box_left{
+        width: 100%;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .box_left p{
+        width: 90%;
+    }
+    .box_right{
+        width: 100%;
+        height: 100%;
+        background-color: rgb(217, 222, 227);
+        background-size:cover ;
+    }
+
+
+    .clients{
+        margin-top: 400px;
+        gap: 5px;
+    }
+    .clients p {
+        width: 90%;
+        text-align: center;
+    }
+
+
+    footer{
+        width: 100%;
+        height: 650px;
+        /* margin-top: 100px; */
+    }
+    .inside_footer{
+        width: 95%;
+        height: 300px;
+    }
+    .top_footer{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .info_footer{
+        width: 95%;
+        height: 100%;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        color: white;
+    }
+    .info_footer h3{
+        margin-bottom: 7px;
+    }
+    .socials i{
+        padding-right: 5px;
+        font-size: 20px;
+    }
+   .pjesa3 {
+    width: 100%;
+    height: auto; /* Largojmë lartësinë fikse */
+    display: flex;
+    flex-direction: column; /* Kthejmë layoutin në vertikal */
+    justify-content: center;
+    align-items: center;
+    margin-top: -200px; /* Shtojmë hapësirë nga maja */
+}
+
+.left3, .right3 {
+    width: 100%;
+    height: 400px; /* Zvogëlojmë lartësinë për mobile */
+    background-size: cover;
+    margin-top: 120px;
+}
+
+.headerpjesa3 {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.headerpjesa3 h1 {
+    font-size: 28px; /* Reduktojmë fontin për mobile */
+    color: rgb(58, 58, 58);
+    line-height: 1.4;
+    margin-top: 30px;
+}
+
+.allright3 {
+    width: 90%;
+    height: auto; /* Nuk ka nevojë për lartësi fikse */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+/* Seksioni Elegant / Unique design */
+.elegant-different-pjesa3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* Kthejmë në layout vertikal për mobile */
+    gap: 20px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.elegant-pjesa3, .different-pjesa3 {
+    width: 100%; /* Duke e bërë secilin seksion të plotë në gjerësi */
+    display: flex;
+    flex-direction: column; /* Layout vertikal */
+    align-items: center;
+}
+
+.text-elegant, .text-different {
+    width: 90%; /* Të gjitha tekstet të shfaqen të plota */
+    text-align: center; /* Qendroni tekstin */
+    gap: 10px;
+}
+
+.text-elegant h1, .text-different h1 {
+    font-size: 18px; /* Reduktojmë madhësinë e titujve */
+    color: rgb(69, 69, 69);
+}
+
+.text-elegant p, .text-different p {
+    font-size: 14px; /* Reduktojmë madhësinë e tekstit */
+    color: #6f6f6f;
+    line-height: 22px;
+}
+
+.icona-elegant, .icona-different {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icona-elegant i, .icona-different i {
+    font-size: 30px; /* Reduktojmë madhësinë e ikonave */
+}
+
+/* Seksioni Make it simple / True */
+.makeitsimple-true-pjesa3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* Kthejmë layoutin në vertikal */
+    gap: 20px;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.makeitsimple-pjesa3, .true-pjesa3 {
+    width: 100%; /* Secili seksion mbulon gjithë hapësirën */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.text-makeitsimple, .text-true {
+    width: 90%; /* Përputhen për shfaqje më të pastër */
+    text-align: center;
+}
+
+.text-makeitsimple h1, .text-true h1 {
+    font-size: 18px;
+    color: rgb(69, 69, 69);
+}
+
+.text-makeitsimple p, .text-true p {
+    font-size: 14px; /* Reduktojmë fontin për tekstin */
+    color: #6f6f6f;
+    line-height: 22px;
+}
+
+.icona-makeitsimple, .icona-true {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icona-makeitsimple i, .icona-true i {
+    font-size: 30px;
+}
+}
+  
+

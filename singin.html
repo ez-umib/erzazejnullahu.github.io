@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="singin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar">
+            <div class="logo">  <img src="photos/logo.png" width=""></div>  
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="wishlist.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="service.html" class="nav-link">Service</a>
+                </li>
+                <li class="nav-item">
+                    <a href="singin.html" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="singin.html" class="nav-link"><span>Sign in</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="icon.html" class="nav-link"> <i class="fa-solid fa-plant-wilt"></i></a>
+                </li>
+               
+    
+            </ul>   
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>    
+        </nav>
+    </header>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <div class="form-container">
+        <div class="decorative-circle"></div>
+        <div class="form-header">
+            <h2>Sign In</h2>
+            <i class="fas fa-user-circle icon"></i>
+        </div>
+        <form>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter your password" required>
+            </div>
+            <div class="form-actions">
+                <button type="submit" class="btn">Sign In</button>
+                <a href="#" class="link">Forgot Password?</a>
+            </div>
+        </form>
+    </div>
+
+    <script>
+ const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+
+hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+})
+
+document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () => {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+}))
+
+function signIn() {
+
+alert('Sign In button clicked!');
+
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+
+hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+})
+
+document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () => {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+}))
+
+}
+    </script>
+
+</body>
+</html>
