@@ -16,6 +16,7 @@ a{
     text-decoration: none;
    
 }
+
 .navbar{
     min-width: 70px;
     display: flex;
@@ -31,6 +32,7 @@ a{
     align-items: center;
     gap: 60px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: crimson;
   
 }
 .logo img{
@@ -38,6 +40,7 @@ a{
 }
 .nav-link{
     transition: 0.7s ease;
+   
 }
 .nav-link:hover{
     color: lightblue;
@@ -113,11 +116,83 @@ a{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     cursor: pointer;
  }
+ .lastthing a {
+   text-decoration: none;
+ }
  .lastthing p{
     color: #adc1d0;
  }
- 
+ .hero-section {
+   background-color: #fab1b1;
+   padding: 50px 0;
+   text-align: center;
+}
+.hero-section h1 {
+   font-size: 3rem;
+   color: #bc3643;
+}
+.hero-section p {
+   font-size: 1.2rem;
+   color: #333;
+}
+.btn-custom {
+   background-color: #bc3643;
+   color: white;
+   padding: 10px 20px;
+   font-size: 1.1rem;
+   text-decoration: none;
+   border-radius: 5px;
+}
+.btn-custom:hover {
+   background-color: #9a1f2e;
+}
+.flower-gallery {
+   display: flex;
+   justify-content: center;
+   margin-top: 30px;
+   gap: 20px;
+}
+.flower-card {
+   width: 250px;
+   text-align: center;
+   background-color: white;
+   padding: 20px;
+   border-radius: 5px;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.flower-card img {
+   width: 100%;
+   height: 150px;
+   object-fit: cover;
+   border-radius: 5px;
+}
+.flower-card h4 {
+   font-size: 1.2rem;
+   margin-top: 15px;
+   color: #333;
+}
  /* Pjesa 2________________*/
+ .pjesa2 {
+   flex-direction: column;
+   height: auto;
+   padding: 20px;
+}
+
+.shkrimi, .fotot {
+   width: 100%;
+   height: auto;
+}
+
+/* Adjust typography for smaller screens */
+.tx h1 {
+   font-size: 28px;
+}
+
+.tx button {
+   width: 70%;
+   font-size: 14px;
+   padding: 8px;
+}
  .pjesa2{
     display: flex;
     justify-content: center;
@@ -138,11 +213,11 @@ a{
  .tx{
     width:60%;
  }
- .tx h1{
+ /* .tx h1{
     color: white;
     font-size:37px;
     letter-spacing:1px;
- }
+ } */
  .tx .p1{
  color: #bc3643;
  font-size: 21px;
@@ -448,7 +523,7 @@ a{
  /*Pjesa 4________________*/
  .pjesa4{
     width:100%;
-    height: 500px;
+    height: 700px;
     background-color: #ffc9c9;
  }
  .fillimi{
@@ -783,7 +858,7 @@ a{
     position: absolute;
     width: 100%;
     height: 763px;
-    margin-top: -767px;
+    margin-top: -930px;
     z-index:1;
     background-color: crimson;
     display: flex;
@@ -800,6 +875,10 @@ a{
     flex-direction: column;
     gap: 15px;
     padding-left: 20px;
+ }
+ .leftpj7 a{
+   text-decoration: none;
+   color: crimson;
  }
  .leftpj7 h1{
     color: #ffffff;
@@ -1111,6 +1190,85 @@ a{
 }
 
 
+/* General Media Query for Tablets and Smaller Screens */
+@media (max-width: 768px) {
+   .pjesa4 {
+       height: auto; /* Allow the container to adjust height */
+   }
+
+   .fillimi h1 {
+       font-size: 20px; /* Adjust heading size */
+       text-align: center;
+   }
+
+   .mbarimi {
+       flex-direction: column; /* Stack elements vertically */
+       height: auto; /* Adapt height to content */
+       gap: 20px; /* Add spacing between sections */
+   }
+
+   .epara,
+   .edyta,
+   .etreta {
+       width: 90%; /* Reduce width for better fit */
+       height: 400px; /* Set an exact height */
+       margin: 0 auto; /* Center align */
+   }
+
+   .lo1 p,
+   .lo2 p,
+   .lo3 p {
+       font-size: 16px; /* Reduce text size */
+       width: 90%; /* Stretch text to fill the section */
+       text-align: center; /* Center-align the text */
+   }
+
+   .img1pj4 img,
+   .img2pj4 img,
+   .img3pj4 img {
+       width: 80%; /* Resize images proportionally */
+       height: 230px; /* Set a fixed height */
+   }
+}
+
+/* Media Query for Mobile Phones */
+@media (max-width: 576px) {
+   .pjesa4 {
+       height: auto;
+   }
+
+   .fillimi h1 {
+       font-size: 18px; /* Smaller heading size */
+       text-align: center;
+   }
+
+   .mbarimi {
+       flex-direction: column; /* Keep stacking */
+       gap: 15px;
+   }
+
+   .epara,
+   .edyta,
+   .etreta {
+       width: 100%; /* Full width */
+       height: 350px; /* Adjusted height for mobile */
+   }
+
+   .lo1 p,
+   .lo2 p,
+   .lo3 p {
+       font-size: 14px; /* Smaller font for smaller screens */
+       text-align: center;
+   }
+
+   .img1pj4 img,
+   .img2pj4 img,
+   .img3pj4 img {
+       width: 100%; /* Full width images */
+       height: 230px; /* Fixed height for uniformity */
+   }
+}
+
 
 @media only screen and (max-width:820px){
    .menu{
@@ -1408,86 +1566,118 @@ section::after{
        height: 300px;
        margin-top:13%;
     }
- 
-     /* pjesa 2____________ */
-    .pjesa2{
-    display: flex;
-    flex-direction: column;
-    height:1600px;
-    }
-    .shkrimi{
-       width:100%;
-       display: flex;
-       align-items:start;
-       height: 200px;
-       margin-bottom:-200%;
-       margin-top: 30px;
-    }
-    .tx{
-       width: 80%;
-       margin: 5%;
-    }
-    .tx button{
-       margin-top:20px;
-    }
-    .tx .p2{
-       font-size:20px;
-    }
-    .fotot{
-       width: 100%;
-       margin: auto;
-    }
-    .foto1{
-       position: static;
-     width: 95%;
-     margin-left:2%;
-     margin-top:25%;
-     margin-bottom:5%;
-    }
-    .foto2{
-       position: static;
-    width: 80%;
-    margin: auto;
-    margin-bottom:5%;
-    }
-    .foto3{
-       position: static;
-    width: 80%;
-    margin: auto;
-    margin-bottom:5%;
-    }
-    .foto4{
-       position: static;
-     width: 90%;
-     height: 200px;
-     margin: auto;
-     margin-bottom:5%;
-    }
-    .txmrena4 h2{
-     margin-top: -7%;
-     margin-bottom: -2%;
-    }
+ /* Media Query for Large Screens */
+@media (max-width: 1200px) {
+   .mrena7 {
+       flex-direction: column;
+       height: 800px;
+   }
 
-    .pjesa4{
-       height: 1300px;
-       
-    }
-    .mbarimi{
+   .leftpj7, 
+   .rightpj7 {
        width: 100%;
-       height: 1100px;
-       display: flex;
-       flex-direction:column;
-       gap:50px;
-    }
-    .epara{
-       width:100%;
-    }
-    .edyta{
-       width:100%;
-    }
-    .etreta{
-       width:100%;
-    }
+       height: auto;
+         margin-top: 120px;
+   }
+
+   .rightpj7 .img1pj7,
+   .rightpj7 .img2pj7,
+   .rightpj7 .img3pj7,
+   .rightpj7 .img4pj7,
+   .rightpj7 .img5pj7 {
+       width: 20%; /* Resize for medium screens */
+   }
+}
+
+/* Media Query for Tablets */
+@media (max-width: 768px) {
+   .leftpj7 h1 {
+       font-size: 40px;
+       margin-top: -250px;
+      
+   }
+
+   .leftpj7 p {
+       font-size: 14px;
+   }
+
+   .rightpj7 .img1pj7,
+   .rightpj7 .img2pj7,
+   .rightpj7 .img3pj7,
+   .rightpj7 .img4pj7,
+   .rightpj7 .img5pj7 {
+       width: 25%; /* Adjust for smaller screens */
+   }
+}
+
+/* Media Query for Mobile Phones */
+@media (max-width: 576px) {
+   .leftpj7 h1 {
+       font-size: 1.2rem;
+   }
+
+   .leftpj7 p {
+       font-size: 12px;
+   }
+
+   .rightpj7 .img1pj7,
+   .rightpj7 .img2pj7,
+   .rightpj7 .img3pj7,
+   .rightpj7 .img4pj7,
+   .rightpj7 .img5pj7 {
+       width: 40%; /* Resize for mobile devices */
+   }
+
+   .mrenarightpj7 {
+       flex-direction: column;
+       gap: 15px;
+   }
+}
+
+  /* Media query for desktops (width > 900px) */
+  @media screen and (min-width: 900px) {
+      .pjesa2 {
+          flex-direction: row;
+          height: 700px;
+      }
+      
+      .shkrimi {
+          width: 40%;
+          height: 650px;
+      }
+  
+      .fotot {
+          width: 60%;
+          height: 680px;
+      }
+  
+      .foto1 {
+          width: 60%;
+          margin-left: 20%;
+          margin-top: 12%;
+          height: 350px;
+      }
+  
+      .foto2 {
+          width: 25%;
+          margin-left: 5%;
+          margin-top: 3%;
+          height: 300px;
+      }
+  
+      .foto3 {
+          width: 29%;
+          margin-left: 67%;
+          margin-top: 25%;
+          height: 420px;
+      }
+  
+      .foto4 {
+          width: 64%;
+          margin-top: 53%;
+          height: 165px;
+      }
+  }
 
  }
 
