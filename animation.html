@@ -47,7 +47,29 @@
         <p>Enjoy this mesmerizing floating flower animation in the background while reading this content. Feel free to customize the text and image!</p>
     </div>
 
-    
+    <script>
+        // Generate random flowers
+        const createFlower = () => {
+            const flower = document.createElement('div');
+            flower.classList.add('flower');
+
+            // Set random position and animation duration
+            const x = Math.random() * window.innerWidth;
+            const duration = Math.random() * 10 + 5;
+            const delay = Math.random() * 5;
+
+            flower.style.left = `${x}px`;
+            flower.style.animationDuration = `${duration}s`;
+            flower.style.animationDelay = `${delay}s`;
+
+            document.body.appendChild(flower);
+
+            // Remove flower after animation
+            flower.addEventListener('animationend', () => {
+                flower.remove();
+            });
+        };
+        
         // Continuously create flowers
         setInterval(createFlower, 500);
     
