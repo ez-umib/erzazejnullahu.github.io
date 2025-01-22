@@ -1732,37 +1732,38 @@ footer {
 
 
   footer{
-      width: 100%;
-      height: 650px;
-  }
-  .inside_footer{
-      width: 95%;
-      height: 300px;
-  }
-  .top_footer{
-      width: 100%;
-      height: 300px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      gap: 30px;
-  }
-  .info_footer{
-      width: 95%;
-      height: 100%;
-      align-items: center;
-      flex-direction: column;
-      gap: 10px;
-      color: white;
-  }
-  .info_footer h3{
-      margin-bottom: 7px;
-  }
-  .socials i{
-      padding-right: 5px;
-      font-size: 20px;
-  }
+   width: 100%;
+   height: 650px;
+}
+.inside_footer{
+   width: 95%;
+   height: 300px;
+}
+.top_footer{
+   width: 100%;
+   height: 300px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap: 30px;
+}
+.info_footer{
+   width: 95%;
+   height: 100%;
+   align-items: center;
+   flex-direction: column;
+   gap: 10px;
+   color: white;
+}
+.info_footer h3{
+   margin-bottom: 7px;
+}
+.socials i{
+   padding-right: 5px;
+   font-size: 20px;
+}
 
 }
+
 
