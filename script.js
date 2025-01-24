@@ -104,3 +104,18 @@ function addToWishlist(button) {
 }
 
 
+
+
+hamburger.addEventListener('click', () => {
+  navMenu.classList.toggle('active'); // Ndrysho gjendjen aktive
+  hamburger.classList.toggle('active'); // Ndrysho pamjen e hamburger-it
+});
+
+// Opsionale: Hiq menunë kur klikoni një link
+document.querySelectorAll('.nav-link').forEach(link => {
+  link.addEventListener('click', () => {
+      navMenu.classList.remove('active');
+      hamburger.classList.remove('active');
+  });
+});
+
