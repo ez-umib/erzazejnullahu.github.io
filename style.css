@@ -813,7 +813,7 @@ filter: drop-shadow(6px 3px 1px rgb(9, 9, 9));
    font-size: 17px;
 }
 .leftpj7 button{
-   width: 20%;
+   /*width: 20%;*/
    height: 35px;
    background-color: #ffffff;
    color: crimson;
@@ -823,6 +823,7 @@ filter: drop-shadow(6px 3px 1px rgb(9, 9, 9));
    margin-right:50%;
    margin-top: 1%;
    border-radius: 20px;
+   padding:  0 10px;
 }
 .rightpj7{
    width: 60%;
