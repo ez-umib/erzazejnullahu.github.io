@@ -7,12 +7,13 @@
 
 header{
     background-color:rgb(251, 184, 184);
+    color: crimson;
 }
 li {
     list-style: none;
 }
 a{
-    color:crimson;
+    color: crimson;
     text-decoration: none;
    
 }
@@ -64,6 +65,7 @@ body {
 h2 {
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
+    color: crimson;
 }
 
 

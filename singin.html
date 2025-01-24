@@ -10,57 +10,57 @@
 <body>
     
     <header>
-        <nav class="navbar">
-            <div class="logo">  <img src="photos/logo.png" width=""></div>  
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="index.html" class="nav-link">Home</a>
+        <nav class="ez navbar">
+            <div class="ez logo">  <img src="photos/logo.png" width=""></div>  
+            <ul class="ez nav-menu">
+                <li class="ez nav-item">
+                    <a href="index.html" class="ez nav-link">Home</a>
                 </li>
-                <li class="nav-item">
-                    <a href="wishlist.html" class="nav-link">About</a>
+                <li class="ez nav-item">
+                    <a href="wishlist.html" class="ez nav-link">About</a>
                 </li>
-                <li class="nav-item">
-                    <a href="service.html" class="nav-link">Service</a>
+                <li class="ez nav-item">
+                    <a href="service.html" class="ez nav-link">Service</a>
                 </li>
-                <li class="nav-item">
-                    <a href="singin.html" class="nav-link">Favorites</a>
+                <li class="ez nav-item">
+                    <a href="singin.html" class="ez nav-link">Favorites</a>
                 </li>
-                <li class="nav-item">
-                    <a href="singin.html" class="nav-link"><span>Sign in</span></a>
+                <li class="ez nav-item">
+                    <a href="singin.html" class="ez nav-link"><span>Sign in</span></a>
                 </li>
-                <li class="nav-item">
-                    <a href="icon.html" class="nav-link"> <i class="fa-solid fa-plant-wilt"></i></a>
+                <li class="ez nav-item">
+                    <a href="icon.html" class="ez nav-link"> <i class="ez fa-solid fa-plant-wilt"></i></a>
                 </li>
                
     
             </ul>   
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
+            <div class="ez hamburger">
+                <span class="ez bar"></span>
+                <span class="ez bar"></span>
+                <span class="ez bar"></span>
             </div>    
         </nav>
     </header>
   <br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-    <div class="form-container">
-        <div class="decorative-circle"></div>
-        <div class="form-header">
+    <div class="ez form-container">
+        <div class="ez decorative-circle"></div>
+        <div class="ez form-header">
             <h2>Sign In</h2>
-            <i class="fas fa-user-circle icon"></i>
+            <i class="ez fas fa-user-circle icon"></i>
         </div>
         <form>
-            <div class="form-group">
+            <div class="ez form-group">
                 <label for="email">Email</label>
                 <input type="email" id="email" placeholder="Enter your email" required>
             </div>
-            <div class="form-group">
+            <div class="ez form-group">
                 <label for="password">Password</label>
                 <input type="password" id="password" placeholder="Enter your password" required>
             </div>
-            <div class="form-actions">
-                <button type="submit" class="btn">Sign In</button>
-                <a href="#" class="link">Forgot Password?</a>
+            <div class="ez form-actions">
+                <button type="submit" class="ez btn">Sign In</button>
+                <a href="#" class="ez link">Forgot Password?</a>
             </div>
         </form>
     </div>
@@ -88,7 +88,7 @@ const navMenu = document.querySelector(".nav-menu");
 
 hamburger.addEventListener("click", () => {
     hamburger.classList.toggle("active");
-    navMenu.classList.toggle("active");
+    navMenu.classLiest.toggle("active");
 })
 
 document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () => {
