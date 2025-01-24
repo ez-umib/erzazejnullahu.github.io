@@ -1,0 +1,130 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color:rgb(251, 184, 184);
+}
+li {
+    list-style: none;
+}
+a{
+    color: crimson;
+    text-decoration: none;
+   
+}
+.navbar{
+    min-width: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  0 24px;
+   
+
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+.logo img{
+    width: 80px;
+}
+.nav-link{
+    transition: 0.7s ease;
+}
+.nav-link:hover{
+    color: lightblue;
+}
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+.bar{
+    display: block;
+    width: 35px;
+    height: 3px;
+    margin:  5px auto;
+    -webkit-transition: all 0.3 s ease-in-out;
+    transition: all 0.3 s ease-in-out;
+    background-color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f0f8; 
+
+}
+
+h1, h2, h4 {
+    color: #d81b60;
+}
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: crimson; 
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+.row .col-md-4 {
+    padding: 10px;
+    background-color: rgb(251, 184, 184); 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.row .col-md-4:hover {
+    transform: translateY(-10px);
+}
+
+.row .col-md-4 h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #ffff; 
+}
+
+.row .col-md-4 p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Contact Section */
+section.container form {
+    margin-top: 20px;
+}
+
+section.container input,
+section.container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ff98a2 ;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+section.container button {
+    background-color: #ff98a2; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+section.container button:hover {
+    background-color:#ffff; 
+}
