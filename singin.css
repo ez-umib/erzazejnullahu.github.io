@@ -15,7 +15,7 @@ a{
     text-decoration: none;
    
 }
-.navbar{
+.ez-navbar{
     min-width: 70px;
     display: flex;
     justify-content: space-between;
@@ -24,7 +24,7 @@ a{
    
 
 }
-.nav-menu{
+.ez-nav-menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,20 +32,20 @@ a{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   
 }
-.logo img{
+.ez-logo img{
     width: 80px;
 }
-.nav-link{
+.ez-nav-link{
     transition: 0.7s ease;
 }
-.nav-link:hover{
+.ez-nav-link:hover{
     color: lightblue;
 }
-.hamburger{
+.ez-hamburger{
     display: none;
     cursor: pointer;
 }
-.bar{
+.ez-bar{
     display: block;
     width: 35px;
     height: 3px;
@@ -68,7 +68,7 @@ nav{
     background-color: white;
     z-index: 2;
 }
-.nav{
+.ez-nav{
     width: 70%;
     height: 100px;
     display: flex;
@@ -77,13 +77,13 @@ nav{
     align-items: center;
   
 }
-.left_nav{
+.ez-left_nav{
     width: 30%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
-.right_nav{
+.ez-right_nav{
     width: 70%;
     display: flex;
     justify-content: flex-end;
@@ -92,12 +92,12 @@ nav{
     text-decoration: none;
     gap: 30px;
 }
-.right_nav a{
+.ez-right_nav a{
     text-decoration: none;
     color: #ff98a2;
 }
 
-.form-container {
+.ez-form-container {
     width: 400px;
     background: #ffffff;
     padding: 20px;
@@ -107,47 +107,47 @@ nav{
     position: relative;
     margin-left: 555px;
 }
-.form-header {
+.ez-form-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 20px;
 }
-.form-header h2 {
+.ez-form-header h2 {
     font-size: 24px;
     color: #333;
 }
-.form-header .icon {
+.ez-form-header .icon {
     font-size: 1.5rem;
     color: crimson;
 }
-.form-group {
+.ez-form-group {
     margin-bottom: 15px;
 }
-.form-group label {
+.ez-form-group label {
     display: block;
     font-size: 14px;
     color: #555;
     margin-bottom: 5px;
 }
-.form-group input {
+.ez-form-group input {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 14px;
 }
-.form-group input:focus {
+.ez-form-group input:focus {
     border-color: crimson;
     outline: none;
     box-shadow: 0 0 5px rgb(211, 44, 78);
 }
-.form-actions {
+.ez-form-actions {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.form-actions .btn {
+.ez-form-actions .btn {
     padding: 10px 15px;
     border: none;
     background: crimson;
@@ -156,18 +156,18 @@ nav{
     cursor: pointer;
     font-size: 14px;
 }
-.form-actions .btn:hover {
+.ez-form-actions .btn:hover {
     background: crimson;
 }
-.form-actions .link {
+.ez-form-actions .link {
     color: crimson;
     font-size: 12px;
     text-decoration: none;
 }
-.form-actions .link:hover {
+.ez-form-actions .link:hover {
     text-decoration: underline;
 }
-.decorative-circle {
+.ez-decorative-circle {
     position: absolute;
     width: 120px;
     height: 120px;
@@ -180,7 +180,7 @@ nav{
 }
 
 @media only screen and (max-width:820px) {
-    .navbar {
+    .ez-navbar {
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
@@ -188,11 +188,11 @@ nav{
         position: relative;
     }
 
-    .logo img {
+    .ez-logo img {
         width: 60px;
     }
 
-    .nav-menu {
+    .ez-nav-menu {
         display: none; /* Fshehur si parazgjedhje */
         flex-direction: column;
         gap: 20px;
@@ -208,26 +208,26 @@ nav{
         z-index: 10;
     }
 
-    .nav-menu.active {
+    .ez-nav-menu.active {
         display: flex; /* Shfaqet kur hamburgeri klikohet */
     }
 
-    .nav-item {
+    .ez-nav-item {
         width: 100%;
     }
 
-    .nav-link {
+    .ez-nav-link {
         font-size: 18px;
         padding: 10px 0;
         display: block;
     }
 
-    .hamburger {
+    .ez-hamburger {
         display: block; /* Shfaq hamburgerin në mobile */
         cursor: pointer;
     }
 
-    .bar {
+    .ez-bar {
         display: block;
         width: 25px;
         height: 3px;
@@ -237,86 +237,86 @@ nav{
     }
 
     /* Animacione për hamburger-in */
-    .hamburger.active .bar:nth-child(1) {
+    .ez-hamburger.active .bar:nth-child(1) {
         transform: translateY(8px) rotate(45deg);
     }
 
-    .hamburger.active .bar:nth-child(2) {
+    .ez-hamburger.active .bar:nth-child(2) {
         opacity: 0;
     }
 
-    .hamburger.active .bar:nth-child(3) {
+    .ez-hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
 
-    .form-container {
+    .ez-form-container {
         width: 90%; /* E zvogëlojmë gjerësinë për ekranet mobile */
         margin-left: 5%; /* Rregullojmë pozicionimin në ekrane më të vogla */
         padding: 15px; /* Pak më pak hapësirë rreth formës */
     }
 
-    .form-header {
+    .ez-form-header {
         flex-direction: column; /* Përshtatim titullin dhe ikonën në një kolonë */
         align-items: flex-start; /* Rreshtim më të ngushtë */
     }
 
-    .form-header h2 {
+    .ez-form-header h2 {
         font-size: 20px; /* Të bëhet më i vogël për ekranet mobile */
     }
 
-    .form-header .icon {
+    .ez-form-header .icon {
         font-size: 1.2rem; /* Ikona bëhet më e vogël */
     }
 
-    .form-group input {
+    .ez-form-group input {
         font-size: 12px; /* Bëjmë më të vogël fushën e tekstit për pajisje më të vogla */
     }
 
-    .form-actions {
+    .ez-form-actions {
         flex-direction: column; /* Lëvizim butonat dhe linkun në një kolonë */
         align-items: flex-start;
     }
 
-    .form-actions .btn {
+    .ez-form-actions .btn {
         width: 100%; /* Butoni merr të gjithë gjerësinë */
         padding: 12px; /* Pak më shumë hapësirë brenda butonit */
         font-size: 16px; /* Bëjmë butonin më të qartë për përdoruesit mobile */
     }
 
-    .form-actions .link {
+    .ez-form-actions .link {
         font-size: 14px; /* Linku bëhet më i dukshëm */
     }
 
-    .decorative-circle {
+    .ez-decorative-circle {
         width: 80px; /* Rreth i vogël për ekranet më të vogla */
         height: 80px;
         top: -30px; /* Rregullimi i pozicionit të dekorës për mobil */
         right: -30px;
     }
 
-    .service{
+    .ez-service{
         width: 100%;
         height: 300px;
         color: white;
         font-size:22px;
     }
 
-    .bussinessServices{
+    .ez-bussinessServices{
         width: 100%;
         height: 2500px;
         margin-top: 30px;
         gap:10px;
     }
-    .top_bussinessServices{
+    .ez-top_bussinessServices{
         width: 100%;
         height: 100px;
         flex-direction: column;
         gap: 20px;
     }
-    .top_bussinessServices h2{
+    .ez-top_bussinessServices h2{
         width: 95%;
     }
-    .bottom_bussinessServices{
+    .ez-bottom_bussinessServices{
         width: 95%;
         height: 2300px;
         display: flex;
@@ -331,7 +331,7 @@ nav{
         justify-content: center;
         flex-direction: column-reverse;
     }
-    .box{
+    .ez-box{
         width: 100%;
         height: 25%;
         display: flex;
@@ -340,7 +340,7 @@ nav{
         flex-direction: column;
         background-color: rgb(255, 255, 255);
     }
-    .box_left{
+    .ez-box_left{
         width: 100%;
         height: 100%;
         background-color: rgb(255, 255, 255);
@@ -350,10 +350,10 @@ nav{
         flex-direction: column;
         gap: 15px;
     }
-    .box_left p{
+    .ez-box_left p{
         width: 90%;
     }
-    .box_right{
+    .ez-box_right{
         width: 100%;
         height: 100%;
         background-color: rgb(217, 222, 227);
@@ -361,10 +361,10 @@ nav{
     }
 
 
-    .clients{
+    .ez-clients{
         gap: 5px;
     }
-    .clients p {
+    .ez-clients p {
         width: 90%;
         text-align: center;
     }
@@ -374,11 +374,11 @@ nav{
         width: 100%;
         height: 650px;
     }
-    .inside_footer{
+    .ez-inside_footer{
         width: 95%;
         height: 300px;
     }
-    .top_footer{
+    .ez-top_footer{
         width: 100%;
         height: 300px;
         display: flex;
@@ -387,7 +387,7 @@ nav{
         flex-direction: column;
         gap: 30px;
     }
-    .info_footer{
+    .ez-info_footer{
         width: 95%;
         height: 100%;
         align-items: center;
@@ -395,10 +395,10 @@ nav{
         gap: 10px;
         color: white;
     }
-    .info_footer h3{
+    .ez-info_footer h3{
         margin-bottom: 7px;
     }
-    .socials i{
+    .ez-socials i{
         padding-right: 5px;
         font-size: 20px;
     }
