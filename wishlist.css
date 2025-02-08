@@ -22,7 +22,7 @@ a{
     text-decoration: none;
    
 }
-.navbar{
+.ez-navbar{
     min-width: 70px;
     display: flex;
     justify-content: space-between;
@@ -31,7 +31,7 @@ a{
    
 
 }
-.nav-menu{
+.ez-nav-menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,20 +39,20 @@ a{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   
 }
-.logo img{
+.ez-logo img{
     width: 80px;
 }
-.nav-link{
+.ez-nav-link{
     transition: 0.7s ease;
 }
-.nav-link:hover{
+.ez-nav-link:hover{
     color: lightblue;
 }
-.hamburger{
+.ez-hamburger{
     display: none;
     cursor: pointer;
 }
-.bar{
+.ez-bar{
     display: block;
     width: 35px;
     height: 3px;
@@ -77,12 +77,12 @@ h2{
     background-color: #fff;
     border-radius: 5px;
 }
-.image img {
+.ez-image img {
     max-width: 100px;
     border-radius: 5px;
     
 }
-.image-info {
+.ez-image-info {
     flex-grow: 1;
     margin-left: 10px;
 }
@@ -97,13 +97,13 @@ h2{
 .image button:hover {
     background-color: #ff98a2;
 }
-.wishlist {
+.ez-wishlist {
     margin-top: 20px;
 }
 .wishlist h2 {
     margin-bottom: 10px;
 }
-.wishlist .wishlist-item {
+.ez-wishlist .ez-wishlist-item {
     border: 1px solid #ddd;
     padding: 10px;
     background-color: #fff;
@@ -112,11 +112,11 @@ h2{
     display: flex;
     align-items: center;
 }
-.wishlist .wishlist-item img {
+.ez-wishlist .ez-wishlist-item img {
     max-width: 100px;
     border-radius: 5px;
 }
-.wishlist .wishlist-item .info {
+.ez-wishlist .ez-wishlist-item .info {
     margin-left: 10px;
 }
 #right{
@@ -134,7 +134,7 @@ h2{
     justify-content: center;
     align-items: center;
  }
-.clients{
+.ez-clients{
     width: 100%;
     height: 400px;
     display: flex;
@@ -157,7 +157,7 @@ footer{
     align-items: center;
     background-color: #ff98a2;
 }
-.inside_footer{
+.ez-inside_footer{
     width: 70%;
     height: 300px;
     display: flex;
@@ -165,7 +165,7 @@ footer{
     align-items: center;
     flex-direction: column;
 }
-.top_footer{
+.ez-top_footer{
     width: 100%;
     height: 300px;
     display: flex;
@@ -174,7 +174,7 @@ footer{
     flex-direction: row;
     gap: 30px;
 }
-.info_footer{
+.ez-info_footer{
     width: 25%;
     height: 100%;
     display: flex;
@@ -183,10 +183,10 @@ footer{
     gap: 10px;
     color: white;
 }
-.info_footer h3{
+.ez-info_footer h3{
     margin-bottom: 7px;
 }
-.socials i{
+.ez-socials i{
     padding-right: 5px;
     font-size: 20px;
 }
@@ -194,7 +194,7 @@ footer{
 
 
 @media only screen and (max-width:820px){
-    .navbar {
+    .ez-navbar {
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
@@ -202,11 +202,11 @@ footer{
         position: relative;
     }
 
-    .logo img {
+    .ez-logo img {
         width: 60px;
     }
 
-    .nav-menu {
+    .ez-nav-menu {
         display: none; /* Fshehur si parazgjedhje */
         flex-direction: column;
         gap: 20px;
@@ -222,26 +222,26 @@ footer{
         z-index: 10;
     }
 
-    .nav-menu.active {
+    .ez-nav-menu.active {
         display: flex; /* Shfaqet kur hamburgeri klikohet */
     }
 
-    .nav-item {
+    .ez-nav-item {
         width: 100%;
     }
 
-    .nav-link {
+    .ez-nav-link {
         font-size: 18px;
         padding: 10px 0;
         display: block;
     }
 
-    .hamburger {
+    .ez-hamburger {
         display: block; /* Shfaq hamburgerin në mobile */
         cursor: pointer;
     }
 
-    .bar {
+    .ez-bar {
         display: block;
         width: 25px;
         height: 3px;
@@ -251,40 +251,40 @@ footer{
     }
 
     /* Animacione për hamburger-in */
-    .hamburger.active .bar:nth-child(1) {
+    .ez-hamburger.active .ez-bar:nth-child(1) {
         transform: translateY(8px) rotate(45deg);
     }
 
-    .hamburger.active .bar:nth-child(2) {
+    .ez-hamburger.active .ez-bar:nth-child(2) {
         opacity: 0;
     }
 
-    .hamburger.active .bar:nth-child(3) {
+    .ez-hamburger.active .ez-bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
-    .service{
+    .ez-service{
         width: 100%;
         height: 300px;
         color: white;
         font-size:22px;
     }
 
-    .bussinessServices{
+    .ez-bussinessServices{
         width: 100%;
         height: 2500px;
         margin-top: 30px;
         gap:10px;
     }
-    .top_bussinessServices{
+    .ez-top_bussinessServices{
         width: 100%;
         height: 100px;
         flex-direction: column;
         gap: 20px;
     }
-    .top_bussinessServices h2{
+    .ez-top_bussinessServices h2{
         width: 95%;
     }
-    .bottom_bussinessServices{
+    .ez-bottom_bussinessServices{
         width: 95%;
         height: 2300px;
         display: flex;
@@ -299,7 +299,7 @@ footer{
         justify-content: center;
         flex-direction: column-reverse;
     }
-    .box{
+    .ez-box{
         width: 100%;
         height: 25%;
         display: flex;
@@ -308,7 +308,7 @@ footer{
         flex-direction: column;
         background-color: rgb(255, 255, 255);
     }
-    .box_left{
+    .ez-box_left{
         width: 100%;
         height: 100%;
         background-color: rgb(255, 255, 255);
@@ -318,10 +318,10 @@ footer{
         flex-direction: column;
         gap: 15px;
     }
-    .box_left p{
+    .ez-box_left p{
         width: 90%;
     }
-    .box_right{
+    .ez-box_right{
         width: 100%;
         height: 100%;
         background-color: rgb(217, 222, 227);
@@ -329,10 +329,10 @@ footer{
     }
 
 
-    .clients{
+    .ez-clients{
         gap: 5px;
     }
-    .clients p {
+    .ez-clients p {
         width: 90%;
         text-align: center;
     }
@@ -342,11 +342,11 @@ footer{
         width: 100%;
         height: 650px;
     }
-    .inside_footer{
+    .ez-inside_footer{
         width: 95%;
         height: 300px;
     }
-    .top_footer{
+    .ez-top_footer{
         width: 100%;
         height: 300px;
         display: flex;
@@ -355,7 +355,7 @@ footer{
         flex-direction: column;
         gap: 30px;
     }
-    .info_footer{
+    .ez-info_footer{
         width: 95%;
         height: 100%;
         align-items: center;
@@ -363,10 +363,10 @@ footer{
         gap: 10px;
         color: white;
     }
-    .info_footer h3{
+    .ez-info_footer h3{
         margin-bottom: 7px;
     }
-    .socials i{
+    .ez-socials i{
         padding-right: 5px;
         font-size: 20px;
     }
