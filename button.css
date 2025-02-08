@@ -305,7 +305,7 @@ a{
     gap: 13px;
     background-color: white;
 }
-.clients p {
+.ez-clients p {
     width: 40%;
     text-align: center;
 }
@@ -469,7 +469,7 @@ footer{
         justify-content: center;
         flex-direction: column-reverse;
     }
-    .box{
+    .ez-box{
         width: 100%;
         height: 25%;
         display: flex;
@@ -478,7 +478,7 @@ footer{
         flex-direction: column;
         background-color: rgb(255, 255, 255);
     }
-    .box_left{
+    .ez-box_left{
         width: 100%;
         height: 100%;
         background-color: rgb(255, 255, 255);
@@ -488,10 +488,10 @@ footer{
         flex-direction: column;
         gap: 15px;
     }
-    .box_left p{
+    .ez-box_left p{
         width: 90%;
     }
-    .box_right{
+    .ez-box_right{
         width: 100%;
         height: 100%;
         background-color: rgb(217, 222, 227);
@@ -584,7 +584,7 @@ footer{
 }
 
 /* Seksioni Elegant / Unique design */
-.elegant-different-pjesa3 {
+.ez-elegant-different-pjesa3 {
     width: 100%;
     display: flex;
     flex-direction: column; 
@@ -593,25 +593,25 @@ footer{
     margin-top: 50px;
 }
 
-.elegant-pjesa3, .different-pjesa3 {
+.ez-elegant-pjesa3, .ez-different-pjesa3 {
     width: 100%; 
     display: flex;
     flex-direction: column; 
     align-items: center;
 }
 
-.text-elegant, .text-different {
+.ez-text-elegant, .ez-text-different {
     width: 90%; 
     text-align: center; 
     gap: 10px;
 }
 
-.text-elegant h1, .text-different h1 {
+.ez-text-elegant h1, .ez-text-different h1 {
     font-size: 18px; 
     color: rgb(69, 69, 69);
 }
 
-.text-elegant p, .text-different p {
+.ez-text-elegant p, .ez-text-different p {
     font-size: 14px;
     color: #6f6f6f;
     line-height: 22px;
@@ -624,7 +624,7 @@ footer{
     align-items: center;
 }
 
-.icona-elegant i, .icona-different i {
+.ez-icona-elegant i, .ez-icona-different i {
     font-size: 30px; 
 }
 
@@ -638,7 +638,7 @@ footer{
     margin-top: 200px;
 }
 
-.makeitsimple-pjesa3, .true-pjesa3 {
+.ez-makeitsimple-pjesa3, .ez-true-pjesa3 {
     width: 100%; /* Secili seksion mbulon gjithë hapësirën */
     display: flex;
     flex-direction: column;
@@ -646,30 +646,30 @@ footer{
     gap: 20px;
 }
 
-.text-makeitsimple, .text-true {
+.ez-text-makeitsimple, .ez-text-true {
     width: 90%; /* Përputhen për shfaqje më të pastër */
     text-align: center;
 }
 
-.text-makeitsimple h1, .text-true h1 {
+.ez-text-makeitsimple h1, .ez-text-true h1 {
     font-size: 18px;
     color: rgb(69, 69, 69);
 }
 
-.text-makeitsimple p, .text-true p {
+.ez-text-makeitsimple p, .ez-text-true p {
     font-size: 14px; /* Reduktojmë fontin për tekstin */
     color: #6f6f6f;
     line-height: 22px;
 }
 
-.icona-makeitsimple, .icona-true {
+.ez-icona-makeitsimple, .ez-icona-true {
     width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.icona-makeitsimple i, .icona-true i {
+.ez-icona-makeitsimple i, .ez-icona-true i {
     font-size: 30px;
 }
 }
