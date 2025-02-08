@@ -16,7 +16,7 @@ a{
     text-decoration: none;
    
 }
-.ez-navbar{
+.navbar{
     min-width: 70px;
     display: flex;
     justify-content: space-between;
@@ -25,7 +25,7 @@ a{
    
 
 }
-.ez-nav-menu{
+.nav-menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,20 +33,20 @@ a{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   
 }
-.ez-logo img{
+.logo img{
     width: 80px;
 }
-.ez-nav-link{
+.nav-link{
     transition: 0.7s ease;
 }
-.ez-nav-link:hover{
+.nav-link:hover{
     color: lightblue;
 }
-.ez-hamburger{
+.hamburger{
     display: none;
     cursor: pointer;
 }
-.ez-bar{
+.bar{
     display: block;
     width: 35px;
     height: 3px;
@@ -69,7 +69,7 @@ nav{
     background-color: white;
     z-index: 2;
 }
-.ez-nav{
+.nav{
     width: 70%;
     height: 100px;
     display: flex;
@@ -78,13 +78,13 @@ nav{
     align-items: center;
   
 }
-.ez-left_nav{
+.left_nav{
     width: 30%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
-.ez-right_nav{
+.right_nav{
     width: 70%;
     display: flex;
     justify-content: flex-end;
@@ -93,16 +93,16 @@ nav{
     text-decoration: none;
     gap: 30px;
 }
-.ez-right_nav a{
+.right_nav a{
     text-decoration: none;
     color: #ff98a2;
 }
 
 
-.ez-container{
+.container{
     width: 100%;
 }
-.ez-service{
+.service{
     width: 100%;
     height: 560px;
     display: flex;
@@ -114,7 +114,7 @@ nav{
     font-size:25px;
     position: relative;
 }
-.ez-shadow{
+.shadow{
     width: 100%;
     height: 100%;
     background-color: #ff98a2;
@@ -127,7 +127,7 @@ nav{
 }
 
 /* ________________________________ */
-.ez-bussinessServices{
+.bussinessServices{
     width: 100%;
     height: 1500px;
     margin-top: 30px;
@@ -140,7 +140,7 @@ nav{
     flex-direction: column;
     gap:5px;
 }
-.ez-top_bussinessServices{
+.top_bussinessServices{
     width: 100%;
     height: 100px;
     display: flex;
@@ -150,10 +150,10 @@ nav{
     flex-direction: column;
     gap: 10px;
 }
-.ez-top_bussinessServices h2{
+.top_bussinessServices h2{
     width: 20%;
 }
-.ez-bottom_bussinessServices{
+.bottom_bussinessServices{
     width: 65%;
     height: 1300px;
     display: flex;
@@ -162,7 +162,7 @@ nav{
     align-items: center;
     background-color: white;
 }
-.ez-box{
+.box{
     width: 100%;
     height: 25%;
     display: flex;
@@ -171,7 +171,7 @@ nav{
     flex-direction: row;
     background-color: rgb(255, 255, 255);
 }
-.ez-box_left{
+.box_left{
     width: 50%;
     height: 100%;
     background-color: rgb(255, 255, 255);
@@ -181,10 +181,10 @@ nav{
     flex-direction: column;
     gap: 15px;
 }
-.ez-box_left p{
+.box_left p{
     width: 70%;
 }
-.ez-box_right{
+.box_right{
     width: 50%;
     height: 100%;
     background-color: rgb(217, 222, 227);
@@ -195,7 +195,7 @@ nav{
     display: flex;
     justify-content: center;
 }
-.ez-personal_image {
+.personal_image {
     width: 130px; /* Set the width of the circle */
     height: 130px; /* Set the height of the circle */
     border-radius: 50%; /* Creates the circular shape */
@@ -205,7 +205,7 @@ nav{
     justify-content: center;
     align-items: center;
  }
-.ez-clients{
+.clients{
     width: 100%;
     height: 400px;
     display: flex;
@@ -215,7 +215,7 @@ nav{
     gap: 13px;
     background-color: white;
 }
-.ez-clients p {
+.clients p {
     width: 40%;
     text-align: center;
 }
@@ -228,7 +228,7 @@ footer{
     align-items: center;
     background-color: #ff98a2;
 }
-.ez-inside_footer{
+.inside_footer{
     width: 70%;
     height: 300px;
     display: flex;
@@ -236,7 +236,7 @@ footer{
     align-items: center;
     flex-direction: column;
 }
-.ez-top_footer{
+.top_footer{
     width: 100%;
     height: 300px;
     display: flex;
@@ -245,7 +245,7 @@ footer{
     flex-direction: row;
     gap: 30px;
 }
-.ez-info_footer{
+.info_footer{
     width: 25%;
     height: 100%;
     display: flex;
@@ -254,10 +254,10 @@ footer{
     gap: 10px;
     color: white;
 }
-.ez-info_footer h3{
+.info_footer h3{
     margin-bottom: 7px;
 }
-.ez-socials i{
+.socials i{
     padding-right: 5px;
     font-size: 20px;
 }
@@ -265,7 +265,7 @@ footer{
 
 
 @media screen and (min-width:320px) and (max-width:767px) {
-    .ez-navbar {
+    .navbar {
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
@@ -273,11 +273,11 @@ footer{
         position: relative;
     }
 
-    .ez-logo img {
+    .logo img {
         width: 60px;
     }
 
-    .ez-nav-menu {
+    .nav-menu {
         display: none; /* Fshehur si parazgjedhje */
         flex-direction: column;
         gap: 20px;
@@ -293,26 +293,26 @@ footer{
         z-index: 10;
     }
 
-    .ez-nav-menu.active {
+    .nav-menu.active {
         display: flex; /* Shfaqet kur hamburgeri klikohet */
     }
 
-    .ez-nav-item {
+    .nav-item {
         width: 100%;
     }
 
-    .ez-nav-link {
+    .nav-link {
         font-size: 18px;
         padding: 10px 0;
         display: block;
     }
 
-    .ez-hamburger {
+    .hamburger {
         display: block; /* Shfaq hamburgerin në mobile */
         cursor: pointer;
     }
 
-    .ez-bar {
+    .bar {
         display: block;
         width: 25px;
         height: 3px;
@@ -322,40 +322,40 @@ footer{
     }
 
     /* Animacione për hamburger-in */
-    .ez-hamburger.active .bar:nth-child(1) {
+    .hamburger.active .bar:nth-child(1) {
         transform: translateY(8px) rotate(45deg);
     }
 
-    .ez-hamburger.active .bar:nth-child(2) {
+    .hamburger.active .bar:nth-child(2) {
         opacity: 0;
     }
 
-    .ez-hamburger.active .bar:nth-child(3) {
+    .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
-    .ez-service{
+    .service{
         width: 100%;
         height: 300px;
         color: white;
         font-size:22px;
     }
 
-    .ez-bussinessServices{
+    .bussinessServices{
         width: 100%;
         height: 2500px;
         margin-top: 30px;
         gap:10px;
     }
-    .ez-top_bussinessServices{
+    .top_bussinessServices{
         width: 100%;
         height: 100px;
         flex-direction: column;
         gap: 20px;
     }
-    .ez-top_bussinessServices h2{
+    .top_bussinessServices h2{
         width: 95%;
     }
-    .ez-bottom_bussinessServices{
+    .bottom_bussinessServices{
         width: 95%;
         height: 2300px;
         display: flex;
@@ -370,7 +370,7 @@ footer{
         justify-content: center;
         flex-direction: column-reverse;
     }
-    .ez-box{
+    .box{
         width: 100%;
         height: 25%;
         display: flex;
@@ -379,7 +379,7 @@ footer{
         flex-direction: column;
         background-color: rgb(255, 255, 255);
     }
-    .ez-box_left{
+    .box_left{
         width: 100%;
         height: 100%;
         background-color: rgb(255, 255, 255);
@@ -389,10 +389,10 @@ footer{
         flex-direction: column;
         gap: 15px;
     }
-    .ez-box_left p{
+    .box_left p{
         width: 90%;
     }
-    .ez-box_right{
+    .box_right{
         width: 100%;
         height: 100%;
         background-color: rgb(217, 222, 227);
@@ -400,10 +400,10 @@ footer{
     }
 
 
-    .ez-clients{
+    .clients{
         gap: 5px;
     }
-    .ez-clients p {
+    .clients p {
         width: 90%;
         text-align: center;
     }
@@ -413,11 +413,11 @@ footer{
         width: 100%;
         height: 650px;
     }
-    .ez-inside_footer{
+    .inside_footer{
         width: 95%;
         height: 300px;
     }
-    .ez-top_footer{
+    .top_footer{
         width: 100%;
         height: 300px;
         display: flex;
@@ -426,7 +426,7 @@ footer{
         flex-direction: column;
         gap: 30px;
     }
-    .ez-info_footer{
+    .info_footer{
         width: 95%;
         height: 100%;
         align-items: center;
@@ -434,10 +434,10 @@ footer{
         gap: 10px;
         color: white;
     }
-    .ez-info_footer h3{
+    .info_footer h3{
         margin-bottom: 7px;
     }
-    .ez-socials i{
+    .socials i{
         padding-right: 5px;
         font-size: 20px;
     }
