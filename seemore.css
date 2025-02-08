@@ -72,28 +72,28 @@ section {
     padding: 4rem 0;
 }
 
-.card-img-top {
+.ez-card-img-top {
     height: 250px;
     object-fit: cover;
     border-radius: 5px;
 }
 
-.card-body {
+.ez-card-body {
     text-align: center;
 }
 
-.card-title {
+.ez-card-title {
     font-size: 1.25rem;
     margin-bottom: 0.75rem;
 }
 
-.card-text {
+.ez-card-text {
     font-size: 1rem;
     color: #555;
 }
 
 
-.navbar {
+.ez-navbar {
     font-size: 1.1rem;
 }
 
