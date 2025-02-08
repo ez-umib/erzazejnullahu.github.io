@@ -15,7 +15,7 @@ a{
     text-decoration: none;
    
 }
-.navbar{
+.ez-navbar{
     min-width: 70px;
     display: flex;
     justify-content: space-between;
@@ -24,7 +24,7 @@ a{
    
 
 }
-.nav-menu{
+.ez-nav-menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,20 +32,20 @@ a{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   
 }
-.logo img{
+.ez-logo img{
     width: 80px;
 }
-.nav-link{
+.ez-nav-link{
     transition: 0.7s ease;
 }
-.nav-link:hover{
+.ez-nav-link:hover{
     color: lightblue;
 }
-.hamburger{
+.ez-hamburger{
     display: none;
     cursor: pointer;
 }
-.bar{
+.ez-bar{
     display: block;
     width: 35px;
     height: 3px;
@@ -61,7 +61,7 @@ a{
     justify-content: center;
 }
 
-.clients{
+.ez-clients{
     width: 100%;
     height: 400px;
     display: flex;
@@ -71,11 +71,11 @@ a{
     gap: 13px;
     background-color: white;
 }
-.clients p {
+.ez-clients p {
     width: 40%;
     text-align: center;
 }
-.personal_image {
+.ez-personal_image {
     width: 130px; /* Set the width of the circle */
     height: 130px; /* Set the height of the circle */
     border-radius: 50%; /* Creates the circular shape */
@@ -93,7 +93,7 @@ footer{
     align-items: center;
     background-color: #ff98a2;
 }
-.inside_footer{
+.ez-inside_footer{
     width: 70%;
     height: 300px;
     display: flex;
@@ -101,7 +101,7 @@ footer{
     align-items: center;
     flex-direction: column;
 }
-.top_footer{
+.ez-top_footer{
     width: 100%;
     height: 300px;
     display: flex;
@@ -110,7 +110,7 @@ footer{
     flex-direction: row;
     gap: 30px;
 }
-.info_footer{
+.ez-info_footer{
     width: 25%;
     height: 100%;
     display: flex;
@@ -119,26 +119,26 @@ footer{
     gap: 10px;
     color: white;
 }
-.info_footer h3{
+.ez-info_footer h3{
     margin-bottom: 7px;
 }
-.socials i{
+.ez-socials i{
     padding-right: 5px;
     font-size: 20px;
 }
-.img-gallery{
+.ez-img-gallery{
     width: 80%;
     margin: 100px auto 50px;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
     grid-gap: 30px;
 }
-.img-gallery img{
+.ez-img-gallery img{
     width: 100%;
     cursor: pointer;
     border-radius: 30px;
 }
-.img-gallery img:hover{
+.ez-img-gallery img:hover{
     transform: scale(0.8) rotate(-15deg);
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -171,7 +171,7 @@ footer{
 
 } */
  /* Modal styles */
-.full-img {
+.ez-full-img {
     width: 100%;
     height: 100vh;
     background: rgba(0, 0, 0, 0.9); /* Dark background */
@@ -184,13 +184,13 @@ footer{
     z-index: 100;
 }
 
-.full-img img {
+.ez-full-img img {
     width: 90%;
     max-width: 500px;
     object-fit: contain; /* Ensures image doesn't distort */
 }
 
-.full-img span {
+.ez-full-img span {
     position: absolute;
     top: 5%;
     right: 5%;
@@ -204,7 +204,7 @@ footer{
 
 
 
-    .navbar {
+    .ez-navbar {
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
@@ -212,11 +212,11 @@ footer{
         position: relative;
     }
 
-    .logo img {
+    .ez-logo img {
         width: 60px;
     }
 
-    .nav-menu {
+    .ez-nav-menu {
         display: none; /* Fshehur si parazgjedhje */
         flex-direction: column;
         gap: 20px;
@@ -232,26 +232,26 @@ footer{
         z-index: 10;
     }
 
-    .nav-menu.active {
+    .ez-nav-menu.active {
         display: flex; /* Shfaqet kur hamburgeri klikohet */
     }
 
-    .nav-item {
+    .ez-nav-item {
         width: 100%;
     }
 
-    .nav-link {
+    .ez-nav-link {
         font-size: 18px;
         padding: 10px 0;
         display: block;
     }
 
-    .hamburger {
+    .ez-hamburger {
         display: block; /* Shfaq hamburgerin në mobile */
         cursor: pointer;
     }
 
-    .bar {
+    .ez-bar {
         display: block;
         width: 25px;
         height: 3px;
@@ -261,39 +261,39 @@ footer{
     }
 
     /* Animacione për hamburger-in */
-    .hamburger.active .bar:nth-child(1) {
+    .ez-hamburger.active .bar:nth-child(1) {
         transform: translateY(8px) rotate(45deg);
     }
 
-    .hamburger.active .bar:nth-child(2) {
+    .ez-hamburger.active .bar:nth-child(2) {
         opacity: 0;
     }
 
-    .hamburger.active .bar:nth-child(3) {
+    .ez-hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
-   .contenti{
+   .ez-contenti{
        margin-top: 70px;
        width: 100%;
        display: flex;
        flex-direction: column;
        margin-left: 270px;
    }
-   .texti{
+   .ez-texti{
 
        width: 160%;
        display: flex;
        flex-direction: column;   
    }
-   .fotot{
+   .ez-fotot{
        width: 100%;
    }
-   .footeri{
+   .ez-footeri{
        width: 400%;
        height: 300px;
        font-size: 22px;
    }
-   .img-gallery{
+   .ez-img-gallery{
        width: 100%;
        display: flex;
        flex-direction: column;
@@ -302,16 +302,16 @@ footer{
        margin-left: -111px;
        
    }
-   .img-gallery img{
+   .ez-img-gallery img{
        width: 3           00%;
        margin-left: 230px;
        display: flex;
        flex-direction: row;
    }
-    .clients{
+    .ez-clients{
         gap: 5px;
     }
-    .clients p {
+    .ez-clients p {
         width: 90%;
         text-align: center;
     }
@@ -321,11 +321,11 @@ footer{
         width: 100%;
         height: 650px;
     }
-    .inside_footer{
+    .ez-inside_footer{
         width: 95%;
         height: 300px;
     }
-    .top_footer{
+    .ez-top_footer{
         width: 100%;
         height: 300px;
         display: flex;
@@ -334,7 +334,7 @@ footer{
         flex-direction: column;
         gap: 30px;
     }
-    .info_footer{
+    .ez-info_footer{
         width: 95%;
         height: 100%;
         align-items: center;
@@ -342,10 +342,10 @@ footer{
         gap: 10px;
         color: white;
     }
-    .info_footer h3{
+    .ez-info_footer h3{
         margin-bottom: 7px;
     }
-    .socials i{
+    .ez-socials i{
         padding-right: 5px;
         font-size: 20px;
     }
