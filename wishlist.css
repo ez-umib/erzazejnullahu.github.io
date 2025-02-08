@@ -67,7 +67,7 @@ h1{
 h2{
     margin: 20px;
 }
-.image {
+.ez-image {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -77,7 +77,7 @@ h2{
     background-color: #fff;
     border-radius: 5px;
 }
-.ez-image img {
+.image img {
     max-width: 100px;
     border-radius: 5px;
     
@@ -97,13 +97,13 @@ h2{
 .image button:hover {
     background-color: #ff98a2;
 }
-.ez-wishlist {
+.wishlist {
     margin-top: 20px;
 }
 .wishlist h2 {
     margin-bottom: 10px;
 }
-.ez-wishlist .ez-wishlist-item {
+.wishlist .ez-wishlist-item {
     border: 1px solid #ddd;
     padding: 10px;
     background-color: #fff;
@@ -112,11 +112,11 @@ h2{
     display: flex;
     align-items: center;
 }
-.ez-wishlist .ez-wishlist-item img {
+.wishlist .wishlist-item img {
     max-width: 100px;
     border-radius: 5px;
 }
-.ez-wishlist .ez-wishlist-item .info {
+.wishlist .wishlist-item .info {
     margin-left: 10px;
 }
 #right{
@@ -124,7 +124,7 @@ h2{
     display: flex;
     justify-content: center;
 }
-.personal_image {
+.ez-personal_image {
     width: 130px; /* Set the width of the circle */
     height: 130px; /* Set the height of the circle */
     border-radius: 50%; /* Creates the circular shape */
