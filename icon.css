@@ -15,7 +15,7 @@ a{
     text-decoration: none;
    
 }
-.navbar{
+.ez-navbar{
     min-width: 70px;
     display: flex;
     justify-content: space-between;
@@ -24,7 +24,7 @@ a{
    
 
 }
-.nav-menu{
+.ez-nav-menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,20 +32,20 @@ a{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   
 }
-.logo img{
+.ez-logo img{
     width: 80px;
 }
-.nav-link{
+.ez-nav-link{
     transition: 0.7s ease;
 }
-.nav-link:hover{
+.ez-nav-link:hover{
     color: lightblue;
 }
-.hamburger{
+.ez-hamburger{
     display: none;
     cursor: pointer;
 }
-.bar{
+.ez-bar{
     display: block;
     width: 35px;
     height: 3px;
@@ -55,43 +55,43 @@ a{
     background-color: white;
 }
 
-.about{
+.ez-about{
     display: grid;
     grid-template-columns: repeat(2,2fr);
     grid: gap 1.5rem;
     align-items: center;
 }
-.about-img img{
+.ez-about-img img{
     max-width: 100%;
     width: 480px;
     height: auto;
 }
-.about-text span{
+.ez-about-text span{
     color: var(--main-color);
     font-weight: 600;
 
 }
-.about-text h2{
+.ez-about-text h2{
     font-size: var(--h2-font);
 
 }
-.about-text p{
+.ez-about-text p{
     margin: 0.8rem 0 1.8rem;
     line-height: 1.7;
 }
-.heading{
+.ez-heading{
     text-align: center;
 }
-.heading span{
+.ez-heading span{
     color: var(--main-color);
     font-weight: 600;
 }
-.heading h2{
+.ez-heading h2{
     font-size: var(--h2-font);
 
 }
 
-.clients {
+.ez-clients {
     width: 100%;
     height: 500px;
     display: flex;
@@ -102,12 +102,12 @@ a{
     background-color: white;
  }
  
- .clients p {
+ .ez-clients p {
     width: 40%;
     text-align: center;
  }
  
- .personal_image {
+ .ez-personal_image {
     width: 130px; /* Set the width of the circle */
     height: 130px; /* Set the height of the circle */
     border-radius: 50%; /* Creates the circular shape */
@@ -118,7 +118,7 @@ a{
     align-items: center;
  }
  
- .personal_image img {
+ .ez-personal_image img {
     width: 100%; /* Ensures the image fills the container */
     height: 100%; /* Ensures the image fills the container */
     object-fit: cover; /* Ensures no distortion */
@@ -135,7 +135,7 @@ a{
     align-items: center;
     background-color: #ff98a2;
  }
- .inside_footer{
+ .ez-inside_footer{
     width: 70%;
     height: 300px;
     display: flex;
@@ -143,7 +143,7 @@ a{
     align-items: center;
     flex-direction: column;
  }
- .top_footer{
+ .ez-top_footer{
     width: 100%;
     height: 300px;
     display: flex;
@@ -152,7 +152,7 @@ a{
     flex-direction: row;
     gap: 30px;
  }
- .info_footer{
+ .ez-info_footer{
     width: 25%;
     height: 100%;
     display: flex;
@@ -161,15 +161,15 @@ a{
     gap: 10px;
     color: white;
  }
- .info_footer h3{
+ .ez-info_footer h3{
     margin-bottom: 7px;
  }
- .socials i{
+ .ez-socials i{
     padding-right: 5px;
     font-size: 20px;
  }
  
- .promo-section {
+ .ez-promo-section {
 
     background-color: #f6e1e1; /* Red background */
   
@@ -181,7 +181,7 @@ a{
   
   
   
-  .promo-banner {
+  .ez-promo-banner {
   
     display: flex;
   
@@ -199,7 +199,7 @@ a{
   
   
   
-  .promo-text {
+  .ez-promo-text {
   
     flex: 1;
   
@@ -211,7 +211,7 @@ a{
   
   
   
-  .promo-text h1 {
+  .ez-promo-text h1 {
   
     font-size: 36px;
   
@@ -222,7 +222,7 @@ a{
   
   
   
-  .promo-text p {
+  .ez-promo-text p {
   
     font-size: 16px;
   
@@ -233,7 +233,7 @@ a{
   
   
   
-  .shop-btn {
+  .ez-shop-btn {
   
     background-color: #fff;
   
@@ -253,7 +253,7 @@ a{
   
   
   
-  .shop-btn:hover {
+  .ez-shop-btn:hover {
   
     background-color: #fff5f5;
   
@@ -261,7 +261,7 @@ a{
   
   
   
-  .promo-image {
+  .ez-promo-image {
   
     flex: 1;
   
@@ -271,7 +271,7 @@ a{
   
   
   
-  .promo-image img {
+  .ez-promo-image img {
   
     max-width: 100%;
   
@@ -279,7 +279,7 @@ a{
   
   }
   
-  .header {
+  .ez-header {
 
     background-color: #008000;
   
@@ -293,7 +293,7 @@ a{
   
   
   
-  .header-top p {
+  .ez-header-top p {
   
     margin: 0;
   
@@ -302,7 +302,7 @@ a{
   
   
 @media (max-width:720px){
-    .navbar {
+    .ez-navbar {
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
@@ -310,11 +310,11 @@ a{
         position: relative;
     }
 
-    .logo img {
+    .ez-logo img {
         width: 60px;
     }
 
-    .nav-menu {
+    .ez-nav-menu {
         display: none; /* Fshehur si parazgjedhje */
         flex-direction: column;
         gap: 20px;
@@ -330,26 +330,26 @@ a{
         z-index: 10;
     }
 
-    .nav-menu.active {
+    .ez-nav-menu.active {
         display: flex; /* Shfaqet kur hamburgeri klikohet */
     }
 
-    .nav-item {
+    .ez-nav-item {
         width: 100%;
     }
 
-    .nav-link {
+    .ez-nav-link {
         font-size: 18px;
         padding: 10px 0;
         display: block;
     }
 
-    .hamburger {
+    .ez-hamburger {
         display: block; /* Shfaq hamburgerin në mobile */
         cursor: pointer;
     }
 
-    .bar {
+    .ez-bar {
         display: block;
         width: 25px;
         height: 3px;
@@ -359,15 +359,15 @@ a{
     }
 
     /* Animacione për hamburger-in */
-    .hamburger.active .bar:nth-child(1) {
+    .ez-hamburger.active .bar:nth-child(1) {
         transform: translateY(8px) rotate(45deg);
     }
 
-    .hamburger.active .bar:nth-child(2) {
+    .ez-hamburger.active .bar:nth-child(2) {
         opacity: 0;
     }
 
-    .hamburger.active .bar:nth-child(3) {
+    .ez-hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
     /* .menu-btn{
@@ -376,15 +376,15 @@ a{
    header{
     padding: 10px 16px;
    }
-   .home{
+   .ez-home{
     grid-template-columns: 1fr;
     text-align: center;
    }
-   .about{
+   .ez-about{
     grid-template-columns: 1fr;
     text-align: center;
    }
-   .about-img{
+   .ez-about-img{
     order: 2;
    }
    section{
