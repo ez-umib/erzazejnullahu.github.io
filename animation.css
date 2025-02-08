@@ -32,7 +32,7 @@ a{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   
 }
-.logo img{
+.ez-logo img{
     width: 80px;
 }
 .ez-nav-link{
@@ -98,18 +98,18 @@ body {
             max-width: 500px;
         }
 
-        .content-box img {
+        .ez-content-box img {
             max-width: 100%;
             border-radius: 10px;
         }
 
-        .content-box h1 {
+        .ez-content-box h1 {
             font-size: 24px;
             color:crimson;
             margin-bottom: 10px;
         }
 
-        .content-box p {
+        .ez-content-box p {
             font-size: 16px;
             color: crimson;
         }
@@ -123,11 +123,11 @@ body {
                 position: relative;
             }
         
-            .logo img {
+            .ez-logo img {
                 width: 60px;
             }
         
-            .nav-menu {
+            .ez-nav-menu {
                 display: none; /* Fshehur si parazgjedhje */
                 flex-direction: column;
                 gap: 20px;
@@ -143,26 +143,26 @@ body {
                 z-index: 10;
             }
         
-            .nav-menu.active.active {
+            .ez-nav-menu.active.active {
                 display: flex; /* Shfaqet kur hamburgeri klikohet */
             }
         
-            .nav-item {
+            .ez-nav-item {
                 width: 100%;
             }
         
-            .nav-link {
+            .ez-nav-link {
                 font-size: 18px;
                 padding: 10px 0;
                 display: block;
             }
         
-            .hamburger {
+            .ez-hamburger {
                 display: block; /* Shfaq hamburgerin në mobile */
                 cursor: pointer;
             }
         
-            .bar {
+            .ez-bar {
                 display: block;
                 width: 25px;
                 height: 3px;
