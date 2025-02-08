@@ -47,7 +47,7 @@
         <div class="ez-decorative-circle"></div>
         <div class="ez-form-header">
             <h2>Sign In</h2>
-            <i class="ez-fas fa-user-circle icon"></i>
+            <i class="fas fa-user-circle icon"></i>
         </div>
         <form>
             <div class="ez-form-group">
@@ -59,7 +59,7 @@
                 <input type="password" id="password" placeholder="Enter your password" required>
             </div>
             <div class="ez-form-actions">
-                <button type="submit" class="ez-btn">Sign In</button>
+                <button type="submit" class="btn">Sign In</button>
                 <a href="#" class="ez-link">Forgot Password?</a>
             </div>
         </form>
@@ -70,30 +70,30 @@
 const navMenu = document.querySelector(".nav-menu");
 
 hamburger.addEventListener("click", () => {
-    hamburger.classList-toggle("active");
-    navMenu.classList-toggle("active");
+    hamburger.classListtoggle("active");
+    navMenu.classListtoggle("active");
 })
 
 document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () => {
-    hamburger.classList-remove("active");
-    navMenu.classList-remove("active");
+    hamburger.classListremove("active");
+    navMenu.classListremove("active");
 }))
 
 function signIn() {
 
 alert('Sign In button clicked!');
 
-const hamburger = document.querySelector(".hamburger");
-const navMenu = document.querySelector(".nav-menu");
+const hamburger = document.querySelector(".ez-hamburger");
+const navMenu = document.querySelector(".ez-nav-menu");
 
 hamburger.addEventListener("click", () => {
-    hamburger.classList-toggle("active");
-    navMenu.classLies-.toggle("active");
+    hamburger.classListtoggle("active");
+    navMenu.classLies.toggle("active");
 })
 
 document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () => {
-    hamburger.classList-remove("active");
-    navMenu.classList-remove("active");
+    hamburger.classListremove("active");
+    navMenu.classListremove("active");
 }))
 
 }
