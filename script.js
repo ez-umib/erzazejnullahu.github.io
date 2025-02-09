@@ -1,15 +1,16 @@
-const hamburger = document.querySelector(".hamburger");
-const navMenu = document.querySelector(".nav-menu");
+const hamburger = document.querySelector(".ez-hamburger");
+const navMenu = document.querySelector(".ez-nav-menu");
 
 hamburger.addEventListener("click", () => {
-    hamburger.classList.toggle("active");
-    navMenu.classList.toggle("active");
+    hamburger.classList.toggle("ez-active");
+    navMenu.classList.toggle("ez-active");
 })
 
-document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () => {
-    hamburger.classList.remove("active");
-    navMenu.classList.remove("active");
+document.querySelectorAll(".ez-nav-link").forEach(n => n.addEventListener("click", () => {
+    hamburger.classList.remove("ez-active");
+    navMenu.classList.remove("ez-active");
 }))
+
 
 
 const photos = [

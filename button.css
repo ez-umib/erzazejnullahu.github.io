@@ -392,7 +392,7 @@ footer{
         z-index: 10;
     }
 
-    .ez-nav-menu.active {
+    .ez-nav-menu.active.active {
         display: flex; /* Shfaqet kur hamburgeri klikohet */
     }
 
@@ -438,6 +438,7 @@ footer{
         color: white;
         font-size:22px;
     }
+    
 
     .ez-bussinessServices{
         width: 100%;

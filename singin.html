@@ -66,17 +66,17 @@
     </div>
 
     <script>
- const hamburger = document.querySelector(".hamburger");
-const navMenu = document.querySelector(".nav-menu");
+ const hamburger = document.querySelector(".ez-hamburger");
+const navMenu = document.querySelector(".ez-nav-menu");
 
-hamburger.addEventListener("click", () => {
-    hamburger.classListtoggle("active");
-    navMenu.classListtoggle("active");
+hamburger.addEventListener("ez-click", () => {
+    hamburger.classListtoggle("ez-active");
+    navMenu.classListtoggle("ez-active");
 })
 
-document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () => {
-    hamburger.classListremove("active");
-    navMenu.classListremove("active");
+document.querySelectorAll(".ez-nav-link").forEach(n => n.addEventListener("click", () => {
+    hamburger.classListremove("ez-active");
+    navMenu.classListremove("ez-active");
 }))
 
 function signIn() {
@@ -87,13 +87,13 @@ const hamburger = document.querySelector(".ez-hamburger");
 const navMenu = document.querySelector(".ez-nav-menu");
 
 hamburger.addEventListener("click", () => {
-    hamburger.classListtoggle("active");
-    navMenu.classLies.toggle("active");
+    hamburger.classListtoggle("ez-active");
+    navMenu.classLies.toggle("ez-active");
 })
 
-document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () => {
-    hamburger.classListremove("active");
-    navMenu.classListremove("active");
+document.querySelectorAll(".ez-nav-link").forEach(n => n.addEventListener("click", () => {
+    hamburger.classListremove("ez-active");
+    navMenu.classListremove("ez-active");
 }))
 
 }

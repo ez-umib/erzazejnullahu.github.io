@@ -38,7 +38,7 @@ a{
 .ez-nav-link{
     transition: 0.7s ease;
 }
-.nav-link:hover{
+.ez-nav-link:hover{
     color: lightblue;
 }
 .ez-hamburger{
