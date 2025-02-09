@@ -144,7 +144,7 @@ h2{
     gap: 13px;
     background-color: white;
 }
-.clients p {
+.ez-clients p {
     width: 40%;
     text-align: center;
 }
@@ -222,7 +222,7 @@ footer{
         z-index: 10;
     }
 
-    .ez-nav-menu.active {
+    .ez-nav-menu.ez-active {
         display: flex; /* Shfaqet kur hamburgeri klikohet */
     }
 
@@ -251,15 +251,15 @@ footer{
     }
 
     /* Animacione për hamburger-in */
-    .ez-hamburger.active .ez-bar:nth-child(1) {
+    .ez-hamburger.ez-active .ez-bar:nth-child(1) {
         transform: translateY(8px) rotate(45deg);
     }
 
-    .ez-hamburger.active .ez-bar:nth-child(2) {
+    .ez-hamburger.ez-active .ez-bar:nth-child(2) {
         opacity: 0;
     }
 
-    .ez-hamburger.active .ez-bar:nth-child(3) {
+    .ez-hamburger.ez-active .ez-bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
     .ez-service{

@@ -92,10 +92,10 @@ function addToWishlist(button) {
 
   const wishlist = document.getElementById('wishlist-items');
   const item = document.createElement('div');
-  item.className = 'wishlist-item';
+  item.className = 'ez-wishlist-item';
   item.innerHTML = `
       <img src="${img}" alt="${name}">
-      <div class="info">
+      <div class="ez-info">
           <h4>${name}</h4>
       </div>
   `;
