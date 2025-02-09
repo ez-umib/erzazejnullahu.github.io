@@ -10,7 +10,7 @@
 <body id="Make it flowery">
     
     <header>
-        <nav class="ez-navbar">
+        <nav class="ez-navbar ">
             <div class="ez-logo">  <img src="photos/logo.png" width=""></div>  
             <ul class="ez-nav-menu">
                 <li class="ez-nav-item">
@@ -69,14 +69,15 @@
  const hamburger = document.querySelector(".ez-hamburger");
 const navMenu = document.querySelector(".ez-nav-menu");
 
-hamburger.addEventListener("ez-click", () => {
-    hamburger.classListtoggle("ez-active");
-    navMenu.classListtoggle("ez-active");
-})
+hamburger.addEventListener("click", () => {  // Ndryshoni 'ez-click' në 'click'
+    hamburger.classList.toggle("ez-active");
+    navMenu.classList.toggle("ez-active");
+});
+
 
 document.querySelectorAll(".ez-nav-link").forEach(n => n.addEventListener("click", () => {
-    hamburger.classListremove("ez-active");
-    navMenu.classListremove("ez-active");
+    hamburger.classList.remove("ez-active");
+    navMenu.classList.remove("ez-active");
 }))
 
 function signIn() {
@@ -87,13 +88,13 @@ const hamburger = document.querySelector(".ez-hamburger");
 const navMenu = document.querySelector(".ez-nav-menu");
 
 hamburger.addEventListener("click", () => {
-    hamburger.classListtoggle("ez-active");
-    navMenu.classLies.toggle("ez-active");
+    hamburger.classList.toggle("active");
+    navMenu.classLies.toggle("active");
 })
 
 document.querySelectorAll(".ez-nav-link").forEach(n => n.addEventListener("click", () => {
-    hamburger.classListremove("ez-active");
-    navMenu.classListremove("ez-active");
+    hamburger.classList.remove("ez-active");
+    navMenu.classList.remove("ez-active");
 }))
 
 }
