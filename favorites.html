@@ -305,7 +305,7 @@ const navMenu = document.querySelector(".ez-nav-menu");
 
 hamburger.addEventListener("click", () => {
     hamburger.classList.toggle("ez-active");
-    navMenu.classListtoggle("ez-active");
+    navMenu.classList.toggle("ez-active"); 
 })
 
 document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () => {
@@ -321,8 +321,8 @@ let currentIndex = 0;
 
 function moveToSlide(index) {
     slides.style.transform = `translateX(-${index * 100}%)`;
-    dots[currentIndex].classList.remove('active');
-    dots[index].classList.add('active');
+    dots[currentIndex].classList.remove('ez-active');
+    dots[index].classList.add('ez-active');
     currentIndex = index;
 }
 

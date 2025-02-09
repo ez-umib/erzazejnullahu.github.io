@@ -735,7 +735,7 @@ footer{
     z-index: 10;
 }
 
-.ez-nav-menu.active {
+.ez-nav-menu.ez-active {
     display: flex; /* Shfaqet kur hamburgeri klikohet */
 }
 
